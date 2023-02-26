@@ -1,0 +1,197 @@
+body
+{
+    margin: 0px;
+    background-color: #F0EEED; 
+    /* 
+    font-family: 'Permanent Marker', cursive;
+font-family: 'Poppins', sans-serif;
+    */
+}
+
+hr
+{
+    border:5px dotted dimgray;
+    border-left:none;
+    border-right:none;
+    border-bottom:none;
+    margin:80px auto;
+    width:50px;
+}
+
+.container
+{
+    background-color: #CFF5E7;
+    height: 100vh;
+    
+}
+
+h1
+{
+    /* background-color: yellow; */
+    color: #0D4C92;
+    font-family: 'Permanent Marker', cursive;
+    font-size:80px;
+    margin-top:0;
+    padding:80px 0 80px 0;
+    text-align:center;   
+}
+
+h1 .heroText
+{
+    letter-spacing:10px;
+    position:relative;
+    z-index: 12;
+}
+
+h1 img
+{
+    display:block;
+    /* background-color:yellow; */
+    margin:auto;
+    position:relative;
+    bottom:250px;
+    width:400px;
+}
+
+h2
+{
+    font-family: 'Poppins', sans-serif;
+    font-size:30px;
+    color: #59C1BD;
+    letter-spacing:8px;
+    margin:0;
+    position:relative;
+    bottom:420px;
+    text-align:center;
+}
+
+.heroImage
+{
+    /* background-color:green; */
+    margin:auto;
+    position:relative;
+    bottom:300px;
+    width:250px;
+}
+.heroImage img
+{
+    /* background-color:red; */
+    width:250px;  
+}
+
+/* ------------------- content -------------------- */
+
+.content
+{
+    max-width: 900px;
+    text-align: center;
+    margin:30px auto;
+
+}
+.content img
+{
+    border-radius: 50%;
+    width:200px;
+    height:200px;
+    object-fit: cover;
+} 
+
+h3
+{
+    font-family: 'Poppins', sans-serif;
+    font-size:30px;
+    color: #0D4C92;
+    letter-spacing:6px;
+    text-align:center;
+}
+
+h4
+{
+    font-family: 'Poppins', sans-serif;
+    font-size:20px;
+    color:#434242;
+    padding:0 20px;
+}
+
+.footer
+{
+    background-color:#59C1BD;
+    height:150px;
+    align-items:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer ul
+{   
+    display:flex;
+    font-family: 'Poppins', sans-serif;
+    font-weight:700;
+    color:#F0EEED;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items:center;
+    letter-spacing: 4px;
+    padding:0;
+    width:40%;
+}
+
+.footer li
+{
+    list-style: none;
+    display:inline;
+    
+}
+.copyright
+{
+    margin:0;
+    background-color: #59C1BD;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    font-size:14px;
+    color:#F0EEED;
+    letter-spacing: 2px;
+    padding:0 40px 10px 40px;
+    display:flex;
+    justify-content:flex-start;
+    
+}
+
+.copyright .design
+{
+    margin:0 0 0 auto;
+}
+
+.copyright .design .name
+{
+    font-family: 'Permanent Marker', cursive;
+    color: #0D4C92;
+}
+
+/* ------- Media Query ------------- */
+
+@media only screen and (max-width: 800px) {
+    h1 .heroText{
+        font-size:50px;
+    }
+
+    h4
+    {
+        font-size:16px;  
+    }
+
+    h3
+    {
+        font-size:20px;
+        letter-spacing:4px;  
+    }
+
+    hr
+    {
+        margin:40px auto;
+    }
+    
+  }
+
